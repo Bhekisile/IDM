@@ -5,14 +5,11 @@ function MainPage() {
   return (
     <>
       <div className="flex justify-between items-center">
-        {/* <Heading>Heading</Heading> */}
         <HeadingContent />
       </div>
       <div>
         <MainFiles />
       </div>
-        
-      {/* <BookingTable /> */}
     </>
   );
 }

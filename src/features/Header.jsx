@@ -2,7 +2,7 @@ import logo from "../assets/idm-logo.jpg";
 
 function Header() {
     return (
-      <header className="px-8 py-4 flex items-center col-span-full gap-6 border-b-gray-200">
+      <header className="px-8 py-4 flex items-center  col-span-full gap-6 border-b border-slate-50">
         <nav>
           <div className="flex gap-4 mt-2">
             <img className="w-8 h-8" src={logo} alt="Logo" />

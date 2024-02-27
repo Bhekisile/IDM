@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-.appLayout {
+/* .appLayout {
   display: grid;
   grid-template-columns: 16rem 1fr;
   grid-template-rows: 8rem 1fr;
   height: 100vh;
-  background-color: red;
-}
+  background-color: #666;
+} */
 
 /* .appLayout-main {
   background-color: var(--color-grey-50);
@@ -17,15 +17,15 @@
   background-color: blue;
 } */
 
-.appLayout-container {
+/* .appLayout-container {
   max-width: 120rem;
-  /* max-width: 100%; */
+  /* max-width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 4.2rem;
   background-color: green;
-}
+} */
 
 .btn-toggle {
   position: absolute;
@@ -48,15 +48,3 @@
   align-items: center;
   gap: 0.8rem;
 }
-
-/* .disk-cleaner {
-    margin: 10px 0;
-    border: none;
-    color: #fff;
-    font-size: 12px;
-    width: 100%;
-    height: 30px;
-    text-align: center;
-    border-radius: 35px;
-    background: linear-gradient(39.97deg, cyan 60%, #72a0c1 79.29%);
-} */
