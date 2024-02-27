@@ -1,5 +1,6 @@
 import { HiEllipsisVertical } from "react-icons/hi2";
 import { GoCodespaces } from "react-icons/go";
+import HalfDoughnutChart from "./HalfDoughnutChart";
 
 function DiskSpace() {
     // const [isLoading, setIsLoading] = useState(false);
@@ -10,6 +11,7 @@ function DiskSpace() {
           <li className="flex justify-between items-center gap-2"><GoCodespaces /><span>Disk Space</span></li>
           <li><HiEllipsisVertical /></li>
         </ul>
+        <HalfDoughnutChart />
         <div className="text-slate-100">
           <h1>90%</h1>
           <p>C:/Downloads</p>
