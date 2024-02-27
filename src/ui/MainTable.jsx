@@ -15,6 +15,7 @@ function MainTable() {
         {mainFiles.map((val, key) => {
           return (
             <tr key={key}>
+              <td>{val.checkbox}</td>
               <td>{val.name}</td>
               <td>{val.size}</td>
             </tr>
