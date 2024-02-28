@@ -9,19 +9,19 @@ function Header() {
             Internet Download Manager 10.36
           </div>
           <ul className="flex gap-4 mt-4">
-            <li>
+            <li className="hover:bg-indigo-300">
               <span>Tasks</span>
             </li>
-            <li>
+            <li className="hover:bg-indigo-300">
               <span>File</span>
             </li>
-            <li>
+            <li className="hover:bg-indigo-300">
              <span>Downloads</span>
             </li>
-            <li>
+            <li className="hover:bg-indigo-300">
               <span>View</span>
             </li>
-            <li>
+            <li className="hover:bg-indigo-300">
               <span>Help</span>
             </li>
           </ul>
