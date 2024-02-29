@@ -1,4 +1,4 @@
-import AppLayout from "./ui/AppLayout";
+import AppLayout from "./features/AppLayout";
 
 function App() {
   return (
