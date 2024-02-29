@@ -4,8 +4,7 @@ import { CiMusicNote1 } from "react-icons/ci";
 import { LiaVideoSolid } from "react-icons/lia";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { MdOutlineBrokenImage } from "react-icons/md";
-// import DownloadBox from "../downloads/DownloadBox";
-
+import apk from "../assets/Apk.png";
 
 function MainNav() {
   const [isOpen, setIsOpen] = useState(true);
@@ -24,15 +23,15 @@ function MainNav() {
             </button>
           </li>
           {isOpen && (
-            <ul className="ml-8">
-              <li className="flex-list"><CiMusicNote1 /><span>Musics</span></li>
-              <li className="flex-list"><HiOutlineArrowDownOnSquareStack />
-                <span>Compressed</span></li>
-              <li className="flex-list"><LiaVideoSolid /><span>Videos</span></li>
-              <li className="flex-list"><HiOutlineStop /><span>Programs</span></li>
-              <li className="flex-list"><IoDocumentTextOutline /><span>Documents</span></li>
-              <li className="flex-list">APKs</li>
-              <li className="flex-list"><MdOutlineBrokenImage />Images</li>
+            <ul className="ml-8 text-sm">
+              <li className="flex-list mb-2"><CiMusicNote1 /><span className="text-stone-300">Musics</span></li>
+              <li className="flex-list mb-2"><HiOutlineArrowDownOnSquareStack />
+                <span className="text-stone-300">Compressed</span></li>
+              <li className="flex-list mb-2"><LiaVideoSolid /><span className="text-stone-300">Videos</span></li>
+              <li className="flex-list mb-2"><HiOutlineStop /><span className="text-stone-300">Programs</span></li>
+              <li className="flex-list mb-2"><IoDocumentTextOutline /><span className="text-stone-300">Documents</span></li>
+              <li className="flex-list mb-2"><img src={apk} alt="icons" className="w-[12px] h-[12px]" /><span className="text-stone-300">APKs</span></li>
+              <li className="flex-list mb-2"><MdOutlineBrokenImage /><span className="text-stone-300">Images</span></li>
             </ul>
           )}
           <li className="flex items-center gap-4">
@@ -46,7 +45,6 @@ function MainNav() {
             <button className="btn-toggle">
             <HiChevronDown />
             </button>
-            {/* <StyledNavLink><HiOutlineDocumentCheck /><span>Finished</span></StyledNavLink> */}
           </li>
         </ul>
       </nav>
