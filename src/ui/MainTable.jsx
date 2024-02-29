@@ -28,9 +28,9 @@ function MainTable() {
   };
 
     return (
-      <table className="table-fixed w-3/4 mb-2 border border-stone-800 m-6 p-6 text-stone-300">
+      <table className="table-fixed w-3/4 border border-stone-800 overflow-auto mx-6 px-6 text-stone-300">
         <thead className="">
-          <tr className="border border-stone-800 h-[50px]">
+          <tr className="border border-stone-800 h-[40px]">
             <th className="cell-width"><input type="checkbox" /></th>
             <th className="flex items-center h-[50px]">Name:</th>
             <th>Size:</th>
@@ -41,7 +41,7 @@ function MainTable() {
         
           {mainFiles.map(({id, name, size}) => {
           return (
-            <tr className="h-[50px] hover:bg-slate-600 active:bg-slate-700 focus:outline-none focus:ring focus:ring-slate-300" key={id}>
+            <tr className="h-[40px] hover:bg-slate-600 active:bg-slate-700 focus:outline-none focus:ring focus:ring-slate-300" key={id}>
               <td className="pl-5">
               <Checkbox 
                 id={id}
@@ -59,7 +59,7 @@ function MainTable() {
           </tbody>
 
         <tfoot>
-          <tr className="border-t border-stone-700 h-[50px]">
+          <tr className="border-t border-stone-700 h-[40px]">
             <td className="flex justify-evenly items-center pt-4">
             <Checkbox
               type="checkbox"

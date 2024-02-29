@@ -5,7 +5,7 @@ import Sidebar from "./Sidebar";
 function AppLayout() {
     return (
       <div 
-      className="bg-slate-800 text-slate-100 border border-slate-50 sm:flex-wrap md:flex-nowrap"
+      className="bg-slate-800 text-slate-100 border border-slate-50 sm:flex-wrap md:flex-nowrap overflow-scroll"
       style={{
         display: "grid",
         gridTemplateColumns: "16rem 1fr",

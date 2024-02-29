@@ -3,7 +3,6 @@ import { GoCodespaces } from "react-icons/go";
 import HalfDoughnutChart from "./HalfDoughnutChart";
 
 function DiskSpace() {
-    // const [isLoading, setIsLoading] = useState(false);
   
     return (
       <div className="bg-slate-700 p-4 rounded-3xl flex flex-col gap-2 mt-auto text-center text-sm">
