@@ -2,34 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .appLayout {
-  display: grid;
-  grid-template-columns: 16rem 1fr;
-  grid-template-rows: 8rem 1fr;
-  height: 100vh;
-  background-color: #666;
-} */
-
-/* .appLayout-main {
-  background-color: var(--color-grey-50);
-  padding: 4rem 4.8rem 6.4rem;
-  overflow: scroll;
-  background-color: blue;
-} */
-
-/* .appLayout-container {
-  max-width: 120rem;
-  /* max-width: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 4.2rem;
-  background-color: green;
-} */
-
 .btn-toggle {
   position: absolute;
-  /* top: 0.8rem; */
   left: 13rem;
   height: 2.4rem;
   aspect-ratio: 1;
@@ -47,4 +21,12 @@
   display: flex;
   align-items: center;
   gap: 0.8rem;
+}
+
+.cell-width {
+  width: 50px;
+}
+
+.row {
+  height: 50px;
 }

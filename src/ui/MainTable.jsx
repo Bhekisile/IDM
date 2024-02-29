@@ -28,21 +28,21 @@ function MainTable() {
   };
 
     return (
-      <table className="w-3/4">
-        <thead>
-          <tr>
-            <th><input type="checkbox" /></th>
-            <th>Name:</th>
+      <table className="table-fixed w-3/4 mb-2 border border-stone-800 m-6 p-6 text-stone-300">
+        <thead className="">
+          <tr className="border border-stone-800 h-[50px]">
+            <th className="cell-width"><input type="checkbox" /></th>
+            <th className="flex items-center h-[50px]">Name:</th>
             <th>Size:</th>
           </tr>
         </thead>
 
-        <tbody>
+        <tbody className="table-body">
         
           {mainFiles.map(({id, name, size}) => {
           return (
-            <tr key={id}>
-              <td>
+            <tr className="h-[50px] hover:bg-slate-600 active:bg-slate-700 focus:outline-none focus:ring focus:ring-slate-300" key={id}>
+              <td className="pl-5">
               <Checkbox 
                 id={id}
                 type="checkbox"
@@ -51,16 +51,16 @@ function MainTable() {
                 handleClick={handleClick}
                 isChecked={isCheck.includes(id)} />
               </td>
-              <td>{name}</td>
-              <td>{size}</td>
+              <td className="pl-4 flex items-center h-[50px] gap-4">{name}</td>
+              <td className="text-center">{size}</td>
             </tr>
           )
           })}
           </tbody>
 
         <tfoot>
-          <tr>
-            <td>
+          <tr className="border-t border-stone-700 h-[50px]">
+            <td className="flex justify-evenly items-center pt-4">
             <Checkbox
               type="checkbox"
               name="selectAll"
@@ -69,7 +69,7 @@ function MainTable() {
               isChecked={isCheckAll}
             />
             </td>
-            <td>Select All
+            <td className="pl-4">Select All
             </td>
             <td></td>
           </tr>

@@ -1,11 +1,11 @@
-import HeadingContent from "./HeadingContent";
+import AddUrl from "./AddUrl";
 import MainFiles from "./MainTable";
 
 function MainPage() {
   return (
     <>
       <div className="flex justify-between items-center">
-        <HeadingContent />
+        <AddUrl />
       </div>
       <div>
         <MainFiles />
