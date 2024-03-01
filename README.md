@@ -46,7 +46,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://vercel.com/bhekisiles-projects/idm)
+- [Live Demo Link](https://idm-bhekisiles-projects.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
