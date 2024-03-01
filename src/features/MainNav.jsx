@@ -16,14 +16,14 @@ function MainNav() {
     return (
       <nav>
         <ul className="flex flex-col gap-2">
-          <li className="flex items-center gap-4">
+          <li className="flex items-center gap-4 sm:gap-1">
             <HiOutlineClipboardDocument /><span>All Downloads</span>
             <button className="btn-toggle" onClick={handleClick}>
               {isOpen ? <HiChevronUp /> : <HiChevronDown />}
             </button>
           </li>
           {isOpen && (
-            <ul className="ml-8 text-sm">
+            <ul className="ml-8">
               <li className="flex-list mb-2"><CiMusicNote1 /><span className="text-stone-300">Musics</span></li>
               <li className="flex-list mb-2"><HiOutlineArrowDownOnSquareStack />
                 <span className="text-stone-300">Compressed</span></li>
@@ -34,13 +34,13 @@ function MainNav() {
               <li className="flex-list mb-2"><MdOutlineBrokenImage /><span className="text-stone-300">Images</span></li>
             </ul>
           )}
-          <li className="flex items-center gap-4">
+          <li className="flex items-center gap-4 sm:gap-1">
             <HiOutlineDocumentArrowDown /><span>Unfinished</span>
             <button className="btn-toggle">
             <HiChevronDown />
             </button>
           </li>
-          <li className="flex items-center gap-4">
+          <li className="flex items-center gap-4 sm:gap-1">
             <HiOutlineDocumentCheck /><span>Finished</span>
             <button className="btn-toggle">
             <HiChevronDown />

@@ -30,7 +30,7 @@ function AddUrl() {
   };
 
   return (
-    <nav className="w-screen flex sm:flex-wrap md:flex-nowrap gap-10 border-b border-slate-700 py-6">
+    <nav className="w-screen flex sm:flex-wrap md:flex-nowrap md:gap-10 sm:gap-4 border-b border-slate-700 py-6">
       <form className="w-2/4 gap-4 flex justify-center">
         <label htmlFor="url-input" className="flex items-center">
           <MdAddLink className="w-6 h-6" />
@@ -47,7 +47,7 @@ function AddUrl() {
       </form>
 
       <div className="flex justify-between items-center sm:w-2/4 md:w-3/4 sm:flex-wrap md:flex-nowrap">
-        <ul className="flex justify-between items-center gap-6">
+        <ul className="flex justify-between items-center md:gap-6 sm:gap-2">
           <li>
             <a href="#" onClick={handleResumeClick} className="hover:text-violet-400">
               <HiOutlinePlay className="hover:border-2" />
