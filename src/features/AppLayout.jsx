@@ -1,17 +1,19 @@
 import MainPage from "../ui/MainPage";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
+import styled from 'styled-components';
+
+const StyledAppLayout = styled.div`
+  display: grid;
+  grid-template-columns: 16rem 1fr;
+  grid-template-rows: "8rem 1fr";
+  height: "100vh";
+`;
 
 function AppLayout() {
     return (
-      <div 
-      className="bg-slate-800 text-slate-100 border border-slate-50 sm:flex-wrap md:flex-nowrap overflow-scroll"
-      style={{
-        display: "grid",
-        gridTemplateColumns: "16rem 1fr",
-        gridTemplateRows: "8rem 1fr",
-        height: "100vh",
-      }}
+      <StyledAppLayout 
+      className="bg-slate-800 text-slate-100 border border-slate-50 overflow-scroll"
       >
         <Header />
         <Sidebar />
@@ -22,7 +24,7 @@ function AppLayout() {
             <MainPage />
           </div>
         </main>
-      </div>
+      </StyledAppLayout>
     )
   }
   

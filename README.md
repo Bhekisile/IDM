@@ -24,7 +24,7 @@
 # 📖 [Evaluation Task: File Management Interface] <a name="about-project"></a>
 
 
-**[Evaluation Task: File Management Interface]** is an evaluation task project. It allows the user to enter a url and downlaod the file by clicking the resume button. It also has two buttons to stop or stop all the tasks. It keeps the records of downloaded files.
+**[Evaluation Task: File Management Interface]** is an evaluation task project. It allows the user to enter a URL and downlaod the file by clicking the resume button. It also has two buttons to stop or stop all the tasks. It keeps the records of downloaded files.
 
 
 ## 🛠 Built With <a name="built-with"></a>

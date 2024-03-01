@@ -28,7 +28,7 @@ function MainTable() {
   };
 
     return (
-      <table className="table-fixed w-3/4 border border-stone-800 overflow-auto mx-6 px-6 text-stone-300">
+      <table className="table-fixed md:w-3/4 sm:w-2/4 border border-stone-800 overflow-auto mx-6 px-6 text-stone-300">
         <thead className="">
           <tr className="border border-stone-800 h-[40px]">
             <th className="cell-width"><input type="checkbox" /></th>

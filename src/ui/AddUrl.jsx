@@ -46,7 +46,7 @@ function AddUrl() {
         <HiOutlineCloudArrowDown className="w-8 h-8 ml-2" />
       </form>
 
-      <div className="flex justify-between items-center w-3/4">
+      <div className="flex justify-between items-center sm:w-2/4 md:w-3/4 sm:flex-wrap md:flex-nowrap">
         <ul className="flex justify-between items-center gap-6">
           <li>
             <a href="#" onClick={handleResumeClick} className="hover:text-violet-400">
