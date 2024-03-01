@@ -37,7 +37,7 @@ function DiskSpace() {
         </ul>
         <HalfDoughnutChart />
         <div className="text-slate-100 mb-2">
-          <h1>90%</h1>
+          <h1>😊</h1>
           <p>C:/Downloads</p>
         </div>
         <button
